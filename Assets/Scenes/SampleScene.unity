@@ -762,6 +762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
+  arrowObject: {fileID: 4974932266893863279, guid: 4b2c399c2ddd80f4b946333861f1864c, type: 3}
 --- !u!95 &1894446823
 Animator:
   serializedVersion: 7
