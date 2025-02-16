@@ -13,3 +13,5 @@ Builds/
 .DS_Store
 Thumbs.db
 *.log
+Logs/AssetImportWorker0.log
+Logs/shadercompiler-AssetImportWorker0-0.log
