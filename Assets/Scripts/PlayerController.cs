@@ -14,6 +14,9 @@ public class PlayerController : MonoBehaviour
 
     // Arrow
     [SerializeField] private GameObject arrowObject;
+    // Test
+    private Vector2 lastMovementDirection;
+
 
 
     private void Awake()
@@ -34,13 +37,13 @@ public class PlayerController : MonoBehaviour
         PlayerInput();
         if (Input.GetKeyDown(KeyCode.X))
         {
-            GameObject projectile_arrow = Instantiate(arrowObject, transform.position, Quaternion.identity);
+            if (lastMovementDirection != Vector2.zero)
+            {
+                GameObject projectile_arrow = Instantiate(arrowObject, transform.position, Quaternion.identity);
 
-            // Use flipX to check the player's facing direction
-            float facingDirection = mySpriteRender.flipX ? -1f : 1f;
-
-            // Set the velocity based on the facing direction
-            projectile_arrow.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(facingDirection * 2.0f, 0.0f);
+                // Use the last movement direction for the projectile's velocity
+                projectile_arrow.GetComponent<Rigidbody2D>().linearVelocity = lastMovementDirection.normalized * 2.0f;
+            }
         }
 
     }
@@ -54,6 +57,10 @@ public class PlayerController : MonoBehaviour
     private void PlayerInput()
     {
         movement = playerControls.Movement.Move.ReadValue<Vector2>();
+        if (movement != Vector2.zero)
+        {
+            lastMovementDirection = movement;
+        }
 
         myAnimator.SetFloat("moveX", movement.x);
         myAnimator.SetFloat("moveY", movement.y);
