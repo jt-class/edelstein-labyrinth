@@ -1,0 +1,1543 @@
+fileFormatVersion: 2
+guid: b4380afd6d36f0e4ba8ef247c5845f07
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6994688625716977526
+    second: Map_Pallete (4)_0
+  - first:
+      213: 8625099433821313934
+    second: Map_Pallete (4)_1
+  - first:
+      213: -4418333745453568524
+    second: Map_Pallete (4)_2
+  - first:
+      213: 6723087969143385518
+    second: Map_Pallete (4)_3
+  - first:
+      213: -5859443243741100630
+    second: Map_Pallete (4)_4
+  - first:
+      213: 6176012310744940227
+    second: Map_Pallete (4)_5
+  - first:
+      213: -5753246014318823275
+    second: Map_Pallete (4)_6
+  - first:
+      213: 8266534479165938969
+    second: Map_Pallete (4)_7
+  - first:
+      213: 4424960067620462241
+    second: Map_Pallete (4)_8
+  - first:
+      213: 3196814349955291894
+    second: Map_Pallete (4)_9
+  - first:
+      213: 4417716065592444634
+    second: Map_Pallete (4)_10
+  - first:
+      213: -3885665376926095291
+    second: Map_Pallete (4)_11
+  - first:
+      213: -5765780965748179821
+    second: Map_Pallete (4)_12
+  - first:
+      213: -3180006822038968455
+    second: Map_Pallete (4)_13
+  - first:
+      213: -5275296935614236663
+    second: Map_Pallete (4)_14
+  - first:
+      213: 6178489844946502587
+    second: Map_Pallete (4)_15
+  - first:
+      213: -4387035690783001737
+    second: Map_Pallete (4)_16
+  - first:
+      213: 241145178174556276
+    second: Map_Pallete (4)_17
+  - first:
+      213: -8194564450607039275
+    second: Map_Pallete (4)_18
+  - first:
+      213: 8768405682820825390
+    second: Map_Pallete (4)_19
+  - first:
+      213: 9207633193499453976
+    second: Map_Pallete (4)_20
+  - first:
+      213: -616107233263982093
+    second: Map_Pallete (4)_21
+  - first:
+      213: 7330704784858816428
+    second: Map_Pallete (4)_22
+  - first:
+      213: 5828945789473596822
+    second: Map_Pallete (4)_23
+  - first:
+      213: 3350864966125152071
+    second: Map_Pallete (4)_24
+  - first:
+      213: 978536075505987224
+    second: Map_Pallete (4)_25
+  - first:
+      213: 7291885253927263353
+    second: Map_Pallete (4)_26
+  - first:
+      213: 4081343669412019251
+    second: Map_Pallete (4)_27
+  - first:
+      213: 1169892005542081827
+    second: Map_Pallete (4)_28
+  - first:
+      213: -5854341663941318080
+    second: Map_Pallete (4)_29
+  - first:
+      213: -3776870263559272204
+    second: Map_Pallete (4)_30
+  - first:
+      213: 2797833644700382834
+    second: Map_Pallete (4)_31
+  - first:
+      213: 6651987704750160368
+    second: Map_Pallete (4)_32
+  - first:
+      213: -1265114140888926342
+    second: Map_Pallete (4)_33
+  - first:
+      213: -4201377539953638007
+    second: Map_Pallete (4)_34
+  - first:
+      213: 47468628655322511
+    second: Map_Pallete (4)_35
+  - first:
+      213: 1013797268089613666
+    second: Map_Pallete (4)_36
+  - first:
+      213: 3323254592329767131
+    second: Map_Pallete (4)_37
+  - first:
+      213: 114600344219597026
+    second: Map_Pallete (4)_38
+  - first:
+      213: 1478390226927235242
+    second: Map_Pallete (4)_39
+  - first:
+      213: 8742786021971553691
+    second: Map_Pallete (4)_40
+  - first:
+      213: -3834219552415636673
+    second: Map_Pallete (4)_41
+  - first:
+      213: -2883654505778390123
+    second: Map_Pallete (4)_42
+  - first:
+      213: -5837229414791535275
+    second: Map_Pallete (4)_43
+  - first:
+      213: 8836468845886124511
+    second: Map_Pallete (4)_44
+  - first:
+      213: -7872439494452320295
+    second: Map_Pallete (4)_45
+  - first:
+      213: -6274445499614868211
+    second: Map_Pallete (4)_46
+  - first:
+      213: 5990889155307050917
+    second: Map_Pallete (4)_47
+  - first:
+      213: -1615487358324543226
+    second: Map_Pallete (4)_48
+  - first:
+      213: 2098827634784098668
+    second: Map_Pallete (4)_49
+  - first:
+      213: 2820487760334249983
+    second: Map_Pallete (4)_50
+  - first:
+      213: -9182150669553675797
+    second: Map_Pallete (4)_51
+  - first:
+      213: 6271660901283458593
+    second: Map_Pallete (4)_52
+  - first:
+      213: 6635839106594653702
+    second: Map_Pallete (4)_53
+  - first:
+      213: 8025949449290340383
+    second: Map_Pallete (4)_54
+  - first:
+      213: 9011143610959810039
+    second: Map_Pallete (4)_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Map_Pallete (4)_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 38
+        width: 3505
+        height: 5042
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f5352ee30221160800000000000000
+      internalID: 6994688625716977526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_1
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 4534
+        width: 509
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b9751cc3282b770800000000000000
+      internalID: 8625099433821313934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_2
+      rect:
+        serializedVersion: 2
+        x: 4221
+        y: 4534
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd6e1b2edceea2c0800000000000000
+      internalID: -4418333745453568524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_3
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 4534
+        width: 508
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead6e7233e43d4d50800000000000000
+      internalID: 6723087969143385518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_4
+      rect:
+        serializedVersion: 2
+        x: 5383
+        y: 4544
+        width: 508
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5cf3b1a631faea0800000000000000
+      internalID: -5859443243741100630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_5
+      rect:
+        serializedVersion: 2
+        x: 6005
+        y: 4499
+        width: 522
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce3466897a95b550800000000000000
+      internalID: 6176012310744940227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_6
+      rect:
+        serializedVersion: 2
+        x: 6593
+        y: 4641
+        width: 414
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59838136b3d5820b0800000000000000
+      internalID: -5753246014318823275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_7
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 3973
+        width: 509
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d54329f41a8b270800000000000000
+      internalID: 8266534479165938969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_8
+      rect:
+        serializedVersion: 2
+        x: 4221
+        y: 3984
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae5ecfacbd986d30800000000000000
+      internalID: 4424960067620462241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_9
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 3984
+        width: 508
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fad4fdb6bd5d5c20800000000000000
+      internalID: 3196814349955291894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_10
+      rect:
+        serializedVersion: 2
+        x: 5383
+        y: 3984
+        width: 508
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad68c280b51ee4d30800000000000000
+      internalID: 4417716065592444634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_11
+      rect:
+        serializedVersion: 2
+        x: 5918
+        y: 3679
+        width: 526
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54829444de7531ac0800000000000000
+      internalID: -3885665376926095291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_12
+      rect:
+        serializedVersion: 2
+        x: 6689
+        y: 3963
+        width: 211
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39cfed392c4dbffa0800000000000000
+      internalID: -5765780965748179821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_13
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 3413
+        width: 509
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9776c0dc4a85ed3d0800000000000000
+      internalID: -3180006822038968455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_14
+      rect:
+        serializedVersion: 2
+        x: 4231
+        y: 3413
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908b10403616ac6b0800000000000000
+      internalID: -5275296935614236663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_15
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 3413
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3056867c76eb550800000000000000
+      internalID: 6178489844946502587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_16
+      rect:
+        serializedVersion: 2
+        x: 5383
+        y: 3410
+        width: 508
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7733be1684e1e13c0800000000000000
+      internalID: -4387035690783001737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_17
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 2853
+        width: 509
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478846c0348b85300800000000000000
+      internalID: 241145178174556276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_18
+      rect:
+        serializedVersion: 2
+        x: 4231
+        y: 2853
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcf5808c0f074e80800000000000000
+      internalID: -8194564450607039275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_19
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 2853
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e214d03f282afa970800000000000000
+      internalID: 8768405682820825390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_20
+      rect:
+        serializedVersion: 2
+        x: 5383
+        y: 2850
+        width: 504
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a61a8fa9518cf70800000000000000
+      internalID: 9207633193499453976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_21
+      rect:
+        serializedVersion: 2
+        x: 6033
+        y: 3171
+        width: 221
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f960c15cb52377f0800000000000000
+      internalID: -616107233263982093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_22
+      rect:
+        serializedVersion: 2
+        x: 6672
+        y: 3202
+        width: 228
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf14ce7925ebb560800000000000000
+      internalID: 7330704784858816428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_23
+      rect:
+        serializedVersion: 2
+        x: 6841
+        y: 3334
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695259cff4394e050800000000000000
+      internalID: 5828945789473596822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_24
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 2289
+        width: 509
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747e03cdee9a08e20800000000000000
+      internalID: 3350864966125152071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_25
+      rect:
+        serializedVersion: 2
+        x: 4231
+        y: 2286
+        width: 505
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e607c4065749d00800000000000000
+      internalID: 978536075505987224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_26
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 2289
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c5e3f110bf13560800000000000000
+      internalID: 7291885253927263353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_27
+      rect:
+        serializedVersion: 2
+        x: 5383
+        y: 2289
+        width: 504
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33cb7958178d3a830800000000000000
+      internalID: 4081343669412019251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_28
+      rect:
+        serializedVersion: 2
+        x: 6157
+        y: 2421
+        width: 221
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325b7e7a49a4c3010800000000000000
+      internalID: 1169892005542081827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_29
+      rect:
+        serializedVersion: 2
+        x: 6672
+        y: 2452
+        width: 228
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a2207364331cea0800000000000000
+      internalID: -5854341663941318080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_30
+      rect:
+        serializedVersion: 2
+        x: 6841
+        y: 2587
+        width: 73
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f840d9818cd59bc0800000000000000
+      internalID: -3776870263559272204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_31
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 1726
+        width: 509
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276b00550e6e3d620800000000000000
+      internalID: 2797833644700382834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_32
+      rect:
+        serializedVersion: 2
+        x: 4231
+        y: 1726
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f936efd29b905c50800000000000000
+      internalID: 6651987704750160368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_33
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 1726
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77fdf74469617ee0800000000000000
+      internalID: -1265114140888926342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_34
+      rect:
+        serializedVersion: 2
+        x: 5383
+        y: 1726
+        width: 508
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98542c32365b1b5c0800000000000000
+      internalID: -4201377539953638007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_35
+      rect:
+        serializedVersion: 2
+        x: 6154
+        y: 1674
+        width: 221
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85b9fc5774a8a000800000000000000
+      internalID: 47468628655322511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_36
+      rect:
+        serializedVersion: 2
+        x: 6731
+        y: 1746
+        width: 124
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d2eb67e3bb11e00800000000000000
+      internalID: 1013797268089613666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_37
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 1162
+        width: 509
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd85002c1729e1e20800000000000000
+      internalID: 3323254592329767131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_38
+      rect:
+        serializedVersion: 2
+        x: 4221
+        y: 1162
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8b858e764279100800000000000000
+      internalID: 114600344219597026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_39
+      rect:
+        serializedVersion: 2
+        x: 4788
+        y: 1162
+        width: 505
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0386b141c448410800000000000000
+      internalID: 1478390226927235242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_40
+      rect:
+        serializedVersion: 2
+        x: 5383
+        y: 1162
+        width: 508
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d6dd2d09d945970800000000000000
+      internalID: 8742786021971553691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_41
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 602
+        width: 509
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33a863b1ad1acac0800000000000000
+      internalID: -3834219552415636673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_42
+      rect:
+        serializedVersion: 2
+        x: 4221
+        y: 602
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bdf1851833bf7d0800000000000000
+      internalID: -2883654505778390123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_43
+      rect:
+        serializedVersion: 2
+        x: 4816
+        y: 602
+        width: 508
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555a3e236cefdfea0800000000000000
+      internalID: -5837229414791535275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_44
+      rect:
+        serializedVersion: 2
+        x: 5383
+        y: 602
+        width: 504
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd139d3099171aa70800000000000000
+      internalID: 8836468845886124511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_45
+      rect:
+        serializedVersion: 2
+        x: 6154
+        y: 923
+        width: 221
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7e9616df97fb290800000000000000
+      internalID: -7872439494452320295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_46
+      rect:
+        serializedVersion: 2
+        x: 6731
+        y: 996
+        width: 124
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d48e0cf01bce8a0800000000000000
+      internalID: -6274445499614868211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_47
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 38
+        width: 509
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a711d612f9e32350800000000000000
+      internalID: 5990889155307050917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_48
+      rect:
+        serializedVersion: 2
+        x: 4221
+        y: 38
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6017eeb8ec2a499e0800000000000000
+      internalID: -1615487358324543226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_49
+      rect:
+        serializedVersion: 2
+        x: 4805
+        y: 38
+        width: 508
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6954102d98802d10800000000000000
+      internalID: 2098827634784098668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_50
+      rect:
+        serializedVersion: 2
+        x: 5383
+        y: 38
+        width: 504
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff5f08aca2642720800000000000000
+      internalID: 2820487760334249983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_51
+      rect:
+        serializedVersion: 2
+        x: 5960
+        y: 38
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1532b7d92729080800000000000000
+      internalID: -9182150669553675797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map_Pallete (4)_52
+      rect:
+        serializedVersion: 2
+        x: 6537
+        y: 38
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ee4bc6c5a690750800000000000000
+      internalID: 6271660901283458593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 72f0820b6f17d4e4eb63045800abf8b9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Map_Pallete (4)_0: 6994688625716977526
+      Map_Pallete (4)_1: 8625099433821313934
+      Map_Pallete (4)_10: 4417716065592444634
+      Map_Pallete (4)_11: -3885665376926095291
+      Map_Pallete (4)_12: -5765780965748179821
+      Map_Pallete (4)_13: -3180006822038968455
+      Map_Pallete (4)_14: -5275296935614236663
+      Map_Pallete (4)_15: 6178489844946502587
+      Map_Pallete (4)_16: -4387035690783001737
+      Map_Pallete (4)_17: 241145178174556276
+      Map_Pallete (4)_18: -8194564450607039275
+      Map_Pallete (4)_19: 8768405682820825390
+      Map_Pallete (4)_2: -4418333745453568524
+      Map_Pallete (4)_20: 9207633193499453976
+      Map_Pallete (4)_21: -616107233263982093
+      Map_Pallete (4)_22: 7330704784858816428
+      Map_Pallete (4)_23: 5828945789473596822
+      Map_Pallete (4)_24: 3350864966125152071
+      Map_Pallete (4)_25: 978536075505987224
+      Map_Pallete (4)_26: 7291885253927263353
+      Map_Pallete (4)_27: 4081343669412019251
+      Map_Pallete (4)_28: 1169892005542081827
+      Map_Pallete (4)_29: -5854341663941318080
+      Map_Pallete (4)_3: 6723087969143385518
+      Map_Pallete (4)_30: -3776870263559272204
+      Map_Pallete (4)_31: 2797833644700382834
+      Map_Pallete (4)_32: 6651987704750160368
+      Map_Pallete (4)_33: -1265114140888926342
+      Map_Pallete (4)_34: -4201377539953638007
+      Map_Pallete (4)_35: 47468628655322511
+      Map_Pallete (4)_36: 1013797268089613666
+      Map_Pallete (4)_37: 3323254592329767131
+      Map_Pallete (4)_38: 114600344219597026
+      Map_Pallete (4)_39: 1478390226927235242
+      Map_Pallete (4)_4: -5859443243741100630
+      Map_Pallete (4)_40: 8742786021971553691
+      Map_Pallete (4)_41: -3834219552415636673
+      Map_Pallete (4)_42: -2883654505778390123
+      Map_Pallete (4)_43: -5837229414791535275
+      Map_Pallete (4)_44: 8836468845886124511
+      Map_Pallete (4)_45: -7872439494452320295
+      Map_Pallete (4)_46: -6274445499614868211
+      Map_Pallete (4)_47: 5990889155307050917
+      Map_Pallete (4)_48: -1615487358324543226
+      Map_Pallete (4)_49: 2098827634784098668
+      Map_Pallete (4)_5: 6176012310744940227
+      Map_Pallete (4)_50: 2820487760334249983
+      Map_Pallete (4)_51: -9182150669553675797
+      Map_Pallete (4)_52: 6271660901283458593
+      Map_Pallete (4)_6: -5753246014318823275
+      Map_Pallete (4)_7: 8266534479165938969
+      Map_Pallete (4)_8: 4424960067620462241
+      Map_Pallete (4)_9: 3196814349955291894
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
