@@ -37,6 +37,7 @@ public class PlayerController : MonoBehaviour
     private void OnEnable()
     {
         playerControls.Enable();
+        StartCoroutine(TickingFunction());
     }
 
     private void Update()
@@ -105,5 +106,19 @@ public class PlayerController : MonoBehaviour
         {
             TakeDamage(10);
         }
+    }
+    private IEnumerator TickingFunction()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1f);
+            fireProjectile();
+        }
+    }
+    private void fireProjectile()
+    {
+        GameObject projectile_arrow = Instantiate(arrowObject, transform.position, Quaternion.identity);
+        projectile_arrow.GetComponent<Rigidbody2D>().linearVelocity = lastMovementDirection.normalized * 2.0f;
+        Destroy(projectile_arrow, 2f);
     }
 }
