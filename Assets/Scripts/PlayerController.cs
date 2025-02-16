@@ -12,10 +12,16 @@ public class PlayerController : MonoBehaviour
     private Animator myAnimator;
     private SpriteRenderer mySpriteRender;
 
-    // Arrow
+    // Projectile
     [SerializeField] private GameObject arrowObject;
-    // Test
+
+    // Movement
     private Vector2 lastMovementDirection;
+
+
+    // Player Variables
+    [SerializeField] private int maxHealth = 100;
+    private int currentHealth;
 
 
 
@@ -25,6 +31,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();                           // REFERENCE TO RIGID BODY
         myAnimator = GetComponent<Animator>();                      // REFERENCE TO ANIMATION CONTROLLER
         mySpriteRender = GetComponent<SpriteRenderer>();
+        currentHealth = maxHealth;
     }
 
     private void OnEnable()
@@ -40,9 +47,8 @@ public class PlayerController : MonoBehaviour
             if (lastMovementDirection != Vector2.zero)
             {
                 GameObject projectile_arrow = Instantiate(arrowObject, transform.position, Quaternion.identity);
-
-                // Use the last movement direction for the projectile's velocity
                 projectile_arrow.GetComponent<Rigidbody2D>().linearVelocity = lastMovementDirection.normalized * 2.0f;
+                Destroy(projectile_arrow, 2f);
             }
         }
 
@@ -71,18 +77,33 @@ public class PlayerController : MonoBehaviour
         rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
     }
 
-    private void AdjustPlayerFacingDirection()                      // CHANGE THIS TO LAST MOVE DIRECTION IF KAILANGAN
+    private void AdjustPlayerFacingDirection()           
     {
         Vector3 mousePos = Input.mousePosition;
         Vector3 playerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
 
-        if (mousePos.x < playerScreenPoint.x)
+        if (mousePos.x < playerScreenPoint.x) {mySpriteRender.flipX = true;} else {mySpriteRender.flipX = false;}
+    }
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        Debug.Log("Damage received: " + damage + " Current Health: " + currentHealth);
+        if (currentHealth <= 0)
         {
-            mySpriteRender.flipX = true;
+            Die();
         }
-        else
+    }
+    private void Die()
+    {
+        Debug.Log("Player Died!");
+        gameObject.SetActive(false);
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Mob"))
         {
-            mySpriteRender.flipX = false;
+            TakeDamage(10);
         }
     }
 }
