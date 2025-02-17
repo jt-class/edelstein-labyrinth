@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         PlayerInput();
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             if (lastMovementDirection != Vector2.zero)
             {
