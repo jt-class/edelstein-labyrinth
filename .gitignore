@@ -12,6 +12,8 @@ Builds/
 # OS generated files
 .DS_Store
 Thumbs.db
+*.csproj
+*.meta
 *.log
 Logs/AssetImportWorker0.log
 Logs/shadercompiler-AssetImportWorker0-0.log
