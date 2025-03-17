@@ -155,7 +155,7 @@ public class PlayerController : MonoBehaviour
     }
 }*/ // uncomment nyo nalang toh then try nyo
 
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -307,9 +307,19 @@ public class PlayerController : MonoBehaviour
             Destroy(projectile_arrow, 2f);
         }
     }
-}*/ //try nyo rin toh pag mag sasave kayo press nyo lang yung NO 
 
-using System.Collections;
+   public void DisableMovement()
+    {
+        playerControls.Disable();
+    }
+
+    public void EnableMovement()
+    {
+        playerControls.Enable();
+    }
+} //try nyo rin toh pag mag sasave kayo press nyo lang yung NO 
+
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -343,6 +353,7 @@ public class PlayerController : MonoBehaviour
         myAnimator = GetComponent<Animator>();                      // REFERENCE TO ANIMATION CONTROLLER
         mySpriteRender = GetComponent<SpriteRenderer>();
         currentHealth = maxHealth;
+        
     }
 
     private void OnEnable()
@@ -354,7 +365,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         PlayerInput();
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             if (lastMovementDirection != Vector2.zero)
             {
@@ -431,4 +442,15 @@ public class PlayerController : MonoBehaviour
         projectile_arrow.GetComponent<Rigidbody2D>().linearVelocity = lastMovementDirection.normalized * 2.0f;
         Destroy(projectile_arrow, 2f);
     }
-}
+
+    public void DisableMovement()
+    {
+        playerControls.Disable();
+    }
+
+    public void EnableMovement()
+    {
+        playerControls.Enable();
+    }
+
+} */

@@ -1,0 +1,48 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class GameFunction : MonoBehaviour
+{
+    public GameObject pauseMenuUI;
+    private bool isPaused = false;
+    private PlayerController playerController;
+
+    private void Start()
+    {
+        playerController = FindObjectOfType<PlayerController>(); // Ensure correct reference
+    }
+
+    public void PauseGame()
+    {
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        isPaused = true;
+        if (playerController != null)
+        {
+            playerController.DisableMovement(); // Call method from PlayerController
+        }
+    }
+
+    public void ResumeGame()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = false;
+        if (playerController != null)
+        {
+            playerController.EnableMovement(); // Call method from PlayerController
+        }
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void LeaveGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(1);
+    }
+}
