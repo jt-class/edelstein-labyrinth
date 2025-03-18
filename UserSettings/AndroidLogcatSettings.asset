@@ -1,13 +1,62 @@
 {
-    "m_SelectedDeviceId": "",
+    "m_SelectedDeviceId": "R9PT707VEAE",
     "m_SelectedProcess": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "R9PT707VEAE",
+        "name": "com.JTDev.com.unity.Edelstein",
+        "processId": 13811,
         "exited": false
     },
     "m_SelectedPriority": 0,
-    "m_KnownProcessesForSerialization": [],
+    "m_KnownProcessesForSerialization": [
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 10116,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 11761,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 13126,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 14322,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 10346,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 12023,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 13089,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 13811,
+            "exited": false
+        }
+    ],
     "m_Tags": {
         "m_Entries": [
             {
@@ -45,8 +94,19 @@
         "Height": 0.0
     },
     "m_MemoryViewerState": {
-        "MemoryWindowWidth": 0.0,
-        "MemoryTypeEnabled": [],
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
         "MemoryGroup": 2,
         "AutoCapture": true
     },
