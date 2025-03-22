@@ -104,8 +104,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\RenderPipeline\ICloudBackground.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\Volume\KeyframeUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\Lighting\ProbeVolume\ProbeVolumePositioning.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\Textures\MSAASamples.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\Common\ReloadGroupAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\Textures\MSAASamples.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\Lighting\ProbeVolume\IProbeVolumeEnabledRenderPipeline.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\RenderGraph\RenderGraphUtilsResources.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\Textures\PowerOfTwoTextureAtlas.cs" />
@@ -186,8 +186,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\RenderGraph\IRenderGraphEnabledRenderPipeline.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\Common\ListBuffer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\RenderPipeline\RenderPipelineGlobalSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\Stripping\IStripper.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerGroup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\Stripping\IStripper.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\Lighting\ProbeVolume\ProbeVolumeAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\Utilities\BitArray.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@89eb3bdcd743\Runtime\Common\DynamicResolutionHandler.cs" />
@@ -831,6 +831,10 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
@@ -873,6 +877,14 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">

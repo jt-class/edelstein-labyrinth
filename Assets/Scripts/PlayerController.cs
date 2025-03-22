@@ -303,7 +303,7 @@ public class PlayerController : MonoBehaviour
             Vector2 fireDirection = lastMovementDirection.normalized;
 
             GameObject projectile_arrow = Instantiate(arrowObject, transform.position, Quaternion.identity);
-            projectile_arrow.GetComponent<Rigidbody2D>().velocity = fireDirection * 5.0f;
+            projectile_arrow.GetComponent<Rigidbody2D>().linearVelocity = fireDirection * 5.0f;
             Destroy(projectile_arrow, 2f);
         }
     }

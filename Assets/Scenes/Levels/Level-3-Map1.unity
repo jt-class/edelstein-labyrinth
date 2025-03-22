@@ -119,6 +119,57 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &27092461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 27092463}
+  - component: {fileID: 27092462}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &27092462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27092461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e58023d5670d44480abd4c86023da5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicSource: {fileID: 0}
+  SFXSource: {fileID: 0}
+  background: {fileID: 8300000, guid: c70da3e65b6b9f147acb23a3976e91a0, type: 3}
+  enemy_death: {fileID: 8300000, guid: ebf8f70e0f3cf314ca0b221282f306f3, type: 3}
+  enemy_hit: {fileID: 8300000, guid: fa6feffd119ab2b48a031f6d357b31c6, type: 3}
+  player_pickup: {fileID: 8300000, guid: f4f5d99daefb5334f8c911d94c830ec8, type: 3}
+  player_hurt: {fileID: 8300000, guid: cecca384e3d6ebc42b8e68f1a42f65ab, type: 3}
+--- !u!4 &27092463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27092461}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 542.4848, y: 521.65894, z: -5.713719}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &389706156
 GameObject:
   m_ObjectHideFlags: 0
@@ -3837,3 +3888,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 409679574}
   - {fileID: 651023903}
+  - {fileID: 27092463}

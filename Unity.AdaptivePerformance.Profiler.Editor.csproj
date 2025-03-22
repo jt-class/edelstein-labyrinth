@@ -60,15 +60,15 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@5e96ea40f562\Editor\Profiler\AdaptivePerformanceDetailsViewController.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@5e96ea40f562\Editor\Profiler\AdaptivePerformanceProfilerModule.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@ffde895a1c6a\Editor\Profiler\AdaptivePerformanceDetailsViewController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@ffde895a1c6a\Editor\Profiler\AdaptivePerformanceProfilerModule.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.adaptiveperformance@5e96ea40f562\Editor\Profiler\AdaptivePerformanceScalerElement.uxml" />
-    <None Include="Library\PackageCache\com.unity.adaptiveperformance@5e96ea40f562\Editor\Profiler\AdaptivePerformanceDetailsView.uss" />
-    <None Include="Library\PackageCache\com.unity.adaptiveperformance@5e96ea40f562\Editor\Profiler\AdaptivePerformanceDetailsView.uxml" />
-    <None Include="Library\PackageCache\com.unity.adaptiveperformance@5e96ea40f562\Editor\Profiler\AdaptivePerformanceScalerElement.uss" />
-    <None Include="Library\PackageCache\com.unity.adaptiveperformance@5e96ea40f562\Editor\Profiler\Unity.AdaptivePerformance.Profiler.Editor.asmdef" />
+    <None Include="Library\PackageCache\com.unity.adaptiveperformance@ffde895a1c6a\Editor\Profiler\AdaptivePerformanceScalerElement.uxml" />
+    <None Include="Library\PackageCache\com.unity.adaptiveperformance@ffde895a1c6a\Editor\Profiler\AdaptivePerformanceDetailsView.uss" />
+    <None Include="Library\PackageCache\com.unity.adaptiveperformance@ffde895a1c6a\Editor\Profiler\AdaptivePerformanceDetailsView.uxml" />
+    <None Include="Library\PackageCache\com.unity.adaptiveperformance@ffde895a1c6a\Editor\Profiler\AdaptivePerformanceScalerElement.uss" />
+    <None Include="Library\PackageCache\com.unity.adaptiveperformance@ffde895a1c6a\Editor\Profiler\Unity.AdaptivePerformance.Profiler.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -551,6 +551,10 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
@@ -593,6 +597,14 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
