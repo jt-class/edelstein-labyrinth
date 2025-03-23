@@ -7,6 +7,7 @@ public class AIChase : MonoBehaviour
     public float speed;
     public int health = 3; // Health ng mga batugan na maliliit
     public bool isBoss = false; // Yung boss obviously malaki tapos dapat iba kulay so...
+    [SerializeField] public int ExpDrop;
 
     private float distance;
     private SpriteRenderer spriteRenderer;
@@ -85,6 +86,6 @@ public class AIChase : MonoBehaviour
     }
     private void DropLoots()
     {
-        player.GetComponent<PlayerController>().LevelUp();//Will be changed to give EXP instead.
+        player.GetComponent<PlayerController>().ReceiveExp(ExpDrop);//Will be changed to give EXP instead.
     }
 }

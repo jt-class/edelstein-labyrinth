@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,7 +10,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float moveSpeed = 1f;
     [SerializeField] private GameObject levelUpCanvas;
     [SerializeField] public GameObject HealthBar;
-    [SerializeField] public GameObject ExternalUI;
+    [SerializeField] public GameObject ExpBar;
+    [SerializeField] public TextMeshProUGUI LevelText;
 
     private PlayerControls playerControls;
     private Vector2 movement;
@@ -33,6 +35,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private int maxHealth = 100;
     [SerializeField] private int level = 0;
     private int currentHealth;
+    public int currentExp;
+    public int requiredExp;
 
     private void Awake()
     {
@@ -42,7 +46,7 @@ public class PlayerController : MonoBehaviour
         mySpriteRender = GetComponent<SpriteRenderer>();
         currentHealth = maxHealth;
         HealthSlider = HealthBar.GetComponent<Slider>();
-        ExpSlider = ExternalUI.GetComponent<Slider>();
+        ExpSlider = ExpBar.GetComponent<Slider>();
         
     }
 
@@ -51,6 +55,12 @@ public class PlayerController : MonoBehaviour
         playerControls.Enable();
     }
 
+    private void Start()
+    {
+        requiredExp = 100;
+        ExpSlider.maxValue = 100;
+        LevelText.SetText("1");
+    }
     private void Update()
     {
         PlayerInput();
@@ -179,8 +189,29 @@ public class PlayerController : MonoBehaviour
 
     public void LevelUp()
     {
-        levelUpCanvas.SetActive(true);
-        
+        if (currentExp >= requiredExp)
+        {
+            level += 1;
+
+            levelUpCanvas.SetActive(true);
+
+            currentExp = 0;
+            ExpSlider.value = currentExp;
+
+            requiredExp = level * 100;
+
+            ExpSlider.maxValue = requiredExp;
+        }
+    }
+    public void ReceiveExp(int amount)
+    {
+        currentExp += amount;
+        ExpSlider.value = currentExp;
+
+        if (currentExp >= requiredExp)
+        {
+            LevelUp();
+        }
     }
 
 }
