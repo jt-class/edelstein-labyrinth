@@ -34,7 +34,7 @@ public class GameFunction : MonoBehaviour
         isPaused = true;
         if (playerController != null)
         {
-            playerController.DisableMovement(); // Call method from PlayerController
+            //Implement pause
         }
     }
 
@@ -45,7 +45,7 @@ public class GameFunction : MonoBehaviour
         isPaused = false;
         if (playerController != null)
         {
-            playerController.EnableMovement(); // Call method from PlayerController
+            //Remove pause
         }
     }
 

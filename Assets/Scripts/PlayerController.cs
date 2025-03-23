@@ -1,4 +1,4 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -117,7 +117,7 @@ public class PlayerController : MonoBehaviour
             Vector2 fireDirection = lastMovementDirection.normalized;
 
             GameObject projectile_arrow = Instantiate(arrowObject, transform.position, Quaternion.identity);
-            projectile_arrow.GetComponent<Rigidbody2D>().velocity = fireDirection * 5.0f;
+            projectile_arrow.GetComponent<Rigidbody2D>().linearVelocity = fireDirection * 5.0f;
             Destroy(projectile_arrow, 2f);
 
             StartCoroutine(ShootCooldown());
@@ -131,7 +131,7 @@ public class PlayerController : MonoBehaviour
             Vector2 fireDirection = lastMovementDirection.normalized;
 
             GameObject projectile_arrow = Instantiate(arrowObject, transform.position, Quaternion.identity);
-            projectile_arrow.GetComponent<Rigidbody2D>().velocity = fireDirection * 5.0f; //dito iaadjust yung bilis ng bullets
+            projectile_arrow.GetComponent<Rigidbody2D>().linearVelocity = fireDirection * 5.0f; //dito iaadjust yung bilis ng bullets
             Destroy(projectile_arrow, 2f);
         }
     }
@@ -143,7 +143,7 @@ public class PlayerController : MonoBehaviour
             Vector2 fireDirection = lastMovementDirection.normalized;
 
             GameObject projectile_arrow = Instantiate(arrowObject, transform.position, Quaternion.identity);
-            projectile_arrow.GetComponent<Rigidbody2D>().velocity = fireDirection * 1.0f; //dito iaadjust yung bilis ng bullets
+            projectile_arrow.GetComponent<Rigidbody2D>().linearVelocity = fireDirection * 1.0f; //dito iaadjust yung bilis ng bullets
             Destroy(projectile_arrow, 2f);
         }
     }
@@ -153,6 +153,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(shootCooldown);
         canShoot = true;
     }
+<<<<<<< Updated upstream
 }*/ // uncomment nyo nalang toh then try nyo
 
 using System.Collections;
@@ -491,3 +492,6 @@ public class PlayerController : MonoBehaviour
     }
 
 } */
+=======
+}
+>>>>>>> Stashed changes
