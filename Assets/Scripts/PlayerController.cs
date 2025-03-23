@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class PlayerController : MonoBehaviour
     private Animator myAnimator;
     private SpriteRenderer mySpriteRender;
     [SerializeField] private GameObject levelUpCanvas;
+    [SerializeField] public GameObject HealthBar;
+    private Slider HealthSlider;
 
     // Projectile
     [SerializeField] private GameObject arrowObject;
@@ -33,6 +36,7 @@ public class PlayerController : MonoBehaviour
         myAnimator = GetComponent<Animator>();
         mySpriteRender = GetComponent<SpriteRenderer>();
         currentHealth = maxHealth;
+        HealthSlider = HealthBar.GetComponent<Slider>();
     }
 
     private void OnEnable()
@@ -99,6 +103,11 @@ public class PlayerController : MonoBehaviour
         {
             Die();
         }
+        else
+        {
+            HealthSlider.maxValue = maxHealth;
+            HealthSlider.value = currentHealth;
+        }
     }
 
     private void Die()
@@ -111,7 +120,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Mob"))
         {
-            TakeDamage(2);
+            TakeDamage(5);
         }
     }
 
