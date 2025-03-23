@@ -47,13 +47,17 @@ public class AIChase : MonoBehaviour
     public void TakeDamage()
     {
         health--;
-        if (isBoss)
-        {
-            Debug.Log("Boss hit! Remaining health: " + health);
-        }
+
         if (health <= 0)
         {
             Destroy(gameObject);
+            DropLoots(); 
         }
+
+    }
+
+    public void DropLoots()
+    {
+        player.GetComponent<PlayerController>().LevelUp();
     }
 }

@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator myAnimator;
     private SpriteRenderer mySpriteRender;
+    [SerializeField] private GameObject levelUpCanvas;
 
     // Projectile
     [SerializeField] private GameObject arrowObject;
@@ -22,6 +23,7 @@ public class PlayerController : MonoBehaviour
 
     // Player Variables
     [SerializeField] private int maxHealth = 100;
+    [SerializeField] private int level = 0;
     private int currentHealth;
 
     private void Awake()
@@ -42,6 +44,11 @@ public class PlayerController : MonoBehaviour
     {
         PlayerInput();
         fireProjectile();
+
+        if (Input.GetKey(KeyCode.P))
+        {
+            LevelUp();
+        }
 
         if (Input.GetKey(KeyCode.Space))
         {
@@ -153,4 +160,11 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(shootCooldown);
         canShoot = true;
     }
+
+    public void LevelUp()
+    {
+        levelUpCanvas.SetActive(true);
+        
+    }
+
 }

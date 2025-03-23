@@ -14,15 +14,17 @@ public class GameFunction : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) // Press Esc to toggle pause
+        if (Input.GetKeyDown(KeyCode.L)) // Press Esc to toggle pause
         {
             if (isPaused)
             {
-                ResumeGame();
+                //ResumeGame();
+                Debug.Log("TEST 2");
             }
             else
             {
-                PauseGame();
+                //PauseGame();
+                Debug.Log("TEST");
             }
         }
     }
