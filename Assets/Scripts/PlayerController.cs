@@ -169,17 +169,20 @@ public class PlayerController : MonoBehaviour
     private Animator myAnimator;
     private SpriteRenderer mySpriteRender;
 
-    // Projectile
+  
     [SerializeField] private GameObject arrowObject;
 
-    // Movement
+  
     private Vector2 lastMovementDirection;
 
-    // Player Variables
+     
     [SerializeField] private int maxHealth = 100;
     private int currentHealth;
 
     private bool isGodModeActive = false;
+
+   
+    private bool isMoving = false;
 
     private void Awake()
     {
@@ -199,6 +202,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         PlayerInput();
+        HandleFootstepSound();
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -256,6 +260,10 @@ public class PlayerController : MonoBehaviour
     {
         currentHealth -= damage;
         Debug.Log("Damage received: " + damage + " Current Health: " + currentHealth);
+
+        
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.player_hurt);
+
         if (currentHealth <= 0)
         {
             Die();
@@ -294,6 +302,9 @@ public class PlayerController : MonoBehaviour
         GameObject projectile_arrow = Instantiate(arrowObject, transform.position, Quaternion.identity);
         projectile_arrow.GetComponent<Rigidbody2D>().linearVelocity = lastMovementDirection.normalized * 2.0f;
         Destroy(projectile_arrow, 2f);
+
+       
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.enemy_hit);
     }
 
     private void GodMode()
@@ -308,7 +319,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-   public void DisableMovement()
+    public void DisableMovement()
     {
         playerControls.Disable();
     }
@@ -317,7 +328,33 @@ public class PlayerController : MonoBehaviour
     {
         playerControls.Enable();
     }
-} //try nyo rin toh pag mag sasave kayo press nyo lang yung NO 
+
+    private void HandleFootstepSound()
+    {
+        if (movement.magnitude > 0 && !isMoving)
+        {
+            isMoving = true;
+            StopCoroutine(PlayFootsteps());  
+            StartCoroutine(PlayFootsteps());
+        }
+        else if (movement.magnitude == 0 && isMoving)
+        {
+            isMoving = false;
+            StopCoroutine(PlayFootsteps());  
+        }
+    }
+
+    private IEnumerator PlayFootsteps()
+    {
+        while (isMoving)
+        {
+            AudioManager.Instance.PlayFootstepSound(); 
+            yield return new WaitForSeconds(0.2f);  
+        }
+    }
+}
+
+//try nyo rin toh pag mag sasave kayo press nyo lang yung NO 
 
 /*using System.Collections;
 using System.Collections.Generic;

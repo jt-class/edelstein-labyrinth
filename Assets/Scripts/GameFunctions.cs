@@ -12,6 +12,21 @@ public class GameFunction : MonoBehaviour
         playerController = FindObjectOfType<PlayerController>(); // Ensure correct reference
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape)) // Press Esc to toggle pause
+        {
+            if (isPaused)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                PauseGame();
+            }
+        }
+    }
+
     public void PauseGame()
     {
         pauseMenuUI.SetActive(true);
