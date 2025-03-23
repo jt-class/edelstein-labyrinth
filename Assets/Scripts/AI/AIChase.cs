@@ -6,18 +6,20 @@ public class AIChase : MonoBehaviour
     public GameObject player;
     public float speed;
     public int health = 3; // Health ng mga batugan na maliliit
-    public bool isBoss = false; // yung boss obviously malaki tapos dapat iba kulay so...
+    public bool isBoss = false; // Yung boss obviously malaki tapos dapat iba kulay so...
 
     private float distance;
     private SpriteRenderer spriteRenderer;
-    private Animator animator;
+    private Animator animator; // Animator component
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>(); // Get Animator component
+
         if (isBoss)
         {
-            health = 100; // gawin nating 100 yung health babaan mo if masakit na sya masyado </3
+            health = 100; // Gawin nating 100 yung health babaan mo if masakit na sya masyado </3
         }
     }
 
@@ -35,7 +37,7 @@ public class AIChase : MonoBehaviour
             spriteRenderer.flipX = false;
         }
 
-        transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -49,19 +51,20 @@ public class AIChase : MonoBehaviour
     public void TakeDamage()
     {
         health--;
-        animator.SetTrigger("Hit"); 
+        animator.SetTrigger("Hit");  // Play Hit animation
+
+        StartCoroutine(FlashRed());  // Red flash effect
 
         if (health <= 0)
         {
-            Destroy(gameObject);
-            DropLoots(); 
+            Die();
         }
         else
         {
-            StartCoroutine(ResetHitState());
+            StartCoroutine(ResetHitState()); // Transition back to Idle after Hit
         }
-
     }
+
     private IEnumerator FlashRed()
     {
         spriteRenderer.color = Color.red; // Change to red
@@ -75,8 +78,8 @@ public class AIChase : MonoBehaviour
         animator.SetTrigger("Idle"); // Ensure transition back to Idle
     }
 
-    public void DropLoots()
+    private void Die()
     {
-        player.GetComponent<PlayerController>().LevelUp();
+        Destroy(gameObject); // Destroy enemy
     }
 }
