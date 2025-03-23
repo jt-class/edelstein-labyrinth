@@ -137,7 +137,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Mob"))
         {
-            TakeDamage(5);
+            TakeDamage(1);
         }
     }
 
@@ -147,14 +147,35 @@ public class PlayerController : MonoBehaviour
         {
             canShoot = false;
 
-            Vector2 fireDirection = lastMovementDirection.normalized;
-
             GameObject projectile_arrow = Instantiate(arrowObject, transform.position, Quaternion.identity);
-            projectile_arrow.GetComponent<Rigidbody2D>().linearVelocity = fireDirection * 5.0f;
-            Destroy(projectile_arrow, 2f);
 
+            GameObject nearestMob = FindNearestMob();
+
+            projectile_arrow.GetComponent<ArrowChase>().SetTarget(nearestMob, lastMovementDirection);
+
+            Destroy(projectile_arrow, 5f); // 2nd var = lifespan
             StartCoroutine(ShootCooldown());
         }
+    }
+
+
+    private GameObject FindNearestMob()
+    {
+        GameObject[] mobs = GameObject.FindGameObjectsWithTag("Mob");
+        GameObject nearestMob = null;
+        float closestDistance = Mathf.Infinity;
+
+        foreach (GameObject mob in mobs)
+        {
+            float distance = Vector2.Distance(transform.position, mob.transform.position);
+            if (distance < closestDistance)
+            {
+                nearestMob = mob;
+                closestDistance = distance;
+            }
+        }
+
+        return nearestMob;
     }
 
     private void FireContinuousProjectiles()

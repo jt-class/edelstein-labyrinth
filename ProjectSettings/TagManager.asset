@@ -49,5 +49,17 @@ TagManager:
   - name: Puno
     uniqueID: 2620790693
     locked: 0
+  - name: BG
+    uniqueID: 4269417975
+    locked: 0
+  - name: FG
+    uniqueID: 3859609709
+    locked: 0
+  - name: FLOORG
+    uniqueID: 4167592819
+    locked: 0
+  - name: UG
+    uniqueID: 3451578037
+    locked: 0
   m_RenderingLayers:
   - Default
