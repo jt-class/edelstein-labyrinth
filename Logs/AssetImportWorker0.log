@@ -3157,3 +3157,27 @@ Received Import Request.
 Start importing Assets/Sprites/Level3-Maps/Tiles/New Tile Palette.prefab using Guid(52e5dfbed8e9f83438fabb36e83290d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6aea86c336d021bfe45ab3071ca9987b') in 0.165735 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 113
 
+========================================================================
+Received Import Request.
+  Time since last request: 1450.451414 seconds.
+  path: Assets/Sprites/Controllers/Controller1.png
+  artifactKey: Guid(ae38c4b77c063c34f9f07570ca8cd1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Controllers/Controller1.png using Guid(ae38c4b77c063c34f9f07570ca8cd1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af7a5dbc3dcd4e898fa382c2f68a6a0d') in 0.5973953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Controllers/gray_circle-removebg-preview.png
+  artifactKey: Guid(af48fff44bab3814ebab73cf7003cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Controllers/gray_circle-removebg-preview.png using Guid(af48fff44bab3814ebab73cf7003cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bf89d1b9ae5d2abeed4dd1e4abb24b8') in 0.0313647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Controllers/Controller2.png
+  artifactKey: Guid(33168c0ef086b74428534847eef34c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Controllers/Controller2.png using Guid(33168c0ef086b74428534847eef34c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfd2801ab815467b15620f322f4e0153') in 0.0366366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
