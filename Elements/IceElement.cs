@@ -21,7 +21,7 @@ public class IceElement : ElementInfusion
         Enemy enemy = target.GetComponent<Enemy>();
         if (enemy != null)
         {
-            enemy.ApplySlow(slowEffectPercent); // Slows enemy instead of direct damage
+            enemy.ApplySlow(slowEffectPercent); // Bumabagal kalaban
         }
     }
 }
