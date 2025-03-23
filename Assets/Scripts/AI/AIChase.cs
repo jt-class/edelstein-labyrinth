@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class AIChase : MonoBehaviour
@@ -9,6 +10,7 @@ public class AIChase : MonoBehaviour
 
     private float distance;
     private SpriteRenderer spriteRenderer;
+    private Animator animator;
 
     void Start()
     {
@@ -47,13 +49,30 @@ public class AIChase : MonoBehaviour
     public void TakeDamage()
     {
         health--;
+        animator.SetTrigger("Hit"); 
 
         if (health <= 0)
         {
             Destroy(gameObject);
             DropLoots(); 
         }
+        else
+        {
+            StartCoroutine(ResetHitState());
+        }
 
+    }
+    private IEnumerator FlashRed()
+    {
+        spriteRenderer.color = Color.red; // Change to red
+        yield return new WaitForSeconds(0.2f);
+        spriteRenderer.color = Color.white; // Reset color
+    }
+
+    private IEnumerator ResetHitState()
+    {
+        yield return new WaitForSeconds(0.5f); // Adjust based on animation length
+        animator.SetTrigger("Idle"); // Ensure transition back to Idle
     }
 
     public void DropLoots()
