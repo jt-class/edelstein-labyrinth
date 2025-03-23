@@ -4,17 +4,22 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
-{
+{   
+    //Variables
     [SerializeField] private float moveSpeed = 1f;
+    [SerializeField] private GameObject levelUpCanvas;
+    [SerializeField] public GameObject HealthBar;
+    [SerializeField] public GameObject ExternalUI;
 
     private PlayerControls playerControls;
     private Vector2 movement;
     private Rigidbody2D rb;
     private Animator myAnimator;
     private SpriteRenderer mySpriteRender;
-    [SerializeField] private GameObject levelUpCanvas;
-    [SerializeField] public GameObject HealthBar;
+    
     private Slider HealthSlider;
+    private Slider ExpSlider;
+    
 
     // Projectile
     [SerializeField] private GameObject arrowObject;
@@ -37,6 +42,8 @@ public class PlayerController : MonoBehaviour
         mySpriteRender = GetComponent<SpriteRenderer>();
         currentHealth = maxHealth;
         HealthSlider = HealthBar.GetComponent<Slider>();
+        ExpSlider = ExternalUI.GetComponent<Slider>();
+        
     }
 
     private void OnEnable()
