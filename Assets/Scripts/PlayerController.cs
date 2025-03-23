@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float moveSpeed = 1f;
     [SerializeField] private GameObject levelUpCanvas;
     [SerializeField] public GameObject HealthBar;
-    [SerializeField] public GameObject ExternalUI;
+    [SerializeField] public GameObject ExpBar;
 
     private PlayerControls playerControls;
     private Vector2 movement;
@@ -31,8 +31,10 @@ public class PlayerController : MonoBehaviour
 
     // Player Variables
     [SerializeField] private int maxHealth = 100;
-    [SerializeField] private int level = 0;
+    [SerializeField] private int level = 1;
     private int currentHealth;
+    public int currentExp;
+    private int requiredExp;
 
     private void Awake()
     {
@@ -42,13 +44,13 @@ public class PlayerController : MonoBehaviour
         mySpriteRender = GetComponent<SpriteRenderer>();
         currentHealth = maxHealth;
         HealthSlider = HealthBar.GetComponent<Slider>();
-        ExpSlider = ExternalUI.GetComponent<Slider>();
-        
+        ExpSlider = ExpBar.GetComponent<Slider>();
     }
 
     private void OnEnable()
     {
         playerControls.Enable();
+        requiredExp = 100;
     }
 
     private void Update()
@@ -179,8 +181,25 @@ public class PlayerController : MonoBehaviour
 
     public void LevelUp()
     {
-        levelUpCanvas.SetActive(true);
-        
+        level += 1;
+
+        levelUpCanvas.SetActive(true); // Display the UI
+
+        currentExp = 0; // Reset EXP
+        ExpSlider.value = currentExp;
+
+        requiredExp = level * 100; // Update required EXP
+        ExpSlider.maxValue = requiredExp;
+
+    }
+    public void ReceiveExp(int amount)
+    {
+        this.currentExp += amount;
+        ExpSlider.value = this.currentExp;
+        if (this.currentExp >= this.requiredExp) 
+        {
+            LevelUp();
+        }
     }
 
 }
