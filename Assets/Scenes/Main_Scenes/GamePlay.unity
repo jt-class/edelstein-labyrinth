@@ -1494,7 +1494,7 @@ GameObject:
   - component: {fileID: 128992502}
   - component: {fileID: 128992501}
   m_Layer: 5
-  m_Name: LevelTxt
+  m_Name: Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3977,7 +3977,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.09, y: 0.01, z: -10}
+  m_LocalPosition: {x: 2.8273728, y: 0.013069999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4254,9 +4254,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1894446818}
   speed: 1
-  health: 1
+  health: 50
   isBoss: 0
-  ExpDrop: 20
 --- !u!212 &682397274
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6692,11 +6691,10 @@ MonoBehaviour:
   moveSpeed: 2
   levelUpCanvas: {fileID: 1972456565}
   HealthBar: {fileID: 1458770211}
-  ExpBar: {fileID: 1632033323}
+  ExternalUI: {fileID: 837496300}
   arrowObject: {fileID: 4974932266893863279, guid: 4b2c399c2ddd80f4b946333861f1864c, type: 3}
   maxHealth: 100
   level: 0
-  currentExp: 0
 --- !u!95 &1894446823
 Animator:
   serializedVersion: 7

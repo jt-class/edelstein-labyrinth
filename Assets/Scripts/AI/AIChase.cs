@@ -7,7 +7,6 @@ public class AIChase : MonoBehaviour
     public float speed;
     public int health = 3; // Health ng mga batugan na maliliit
     public bool isBoss = false; // Yung boss obviously malaki tapos dapat iba kulay so...
-    [SerializeField] int ExpDrop;
 
     private float distance;
     private SpriteRenderer spriteRenderer;
@@ -52,9 +51,9 @@ public class AIChase : MonoBehaviour
     public void TakeDamage()
     {
         health--;
-        //animator.SetTrigger("Hit");  // Play Hit animation
+        animator.SetTrigger("Hit");  // Play Hit animation
 
-        //StartCoroutine(FlashRed());  // Red flash effect
+        StartCoroutine(FlashRed());  // Red flash effect
 
         if (health <= 0)
         {
@@ -63,7 +62,7 @@ public class AIChase : MonoBehaviour
         }
         else
         {
-            //StartCoroutine(ResetHitState()); // Transition back to Idle after Hit
+            StartCoroutine(ResetHitState()); // Transition back to Idle after Hit
         }
     }
 
@@ -86,6 +85,6 @@ public class AIChase : MonoBehaviour
     }
     private void DropLoots()
     {
-        player.GetComponent<PlayerController>().ReceiveExp(ExpDrop);
+        player.GetComponent<PlayerController>().LevelUp();//Will be changed to give EXP instead.
     }
 }
