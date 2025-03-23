@@ -51,17 +51,18 @@ public class AIChase : MonoBehaviour
     public void TakeDamage()
     {
         health--;
-        animator.SetTrigger("Hit");  // Play Hit animation
+        //animator.SetTrigger("Hit");  // Play Hit animation
 
-        StartCoroutine(FlashRed());  // Red flash effect
+        //StartCoroutine(FlashRed());  // Red flash effect
 
         if (health <= 0)
         {
+            DropLoots();
             Die();
         }
         else
         {
-            StartCoroutine(ResetHitState()); // Transition back to Idle after Hit
+            //StartCoroutine(ResetHitState()); // Transition back to Idle after Hit
         }
     }
 
@@ -81,5 +82,9 @@ public class AIChase : MonoBehaviour
     private void Die()
     {
         Destroy(gameObject); // Destroy enemy
+    }
+    private void DropLoots()
+    {
+        player.GetComponent<PlayerController>().LevelUp();//Will be changed to give EXP instead.
     }
 }
