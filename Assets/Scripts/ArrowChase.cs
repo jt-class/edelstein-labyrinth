@@ -18,6 +18,11 @@ public class ArrowChase : MonoBehaviour
         this.initialDirection = initialDirection.normalized;
     }
 
+    private void onTriggerEntry(Collider2D collision)
+    {
+        Destroy(gameObject);
+    }
+
     private void Update()
     {
         if (target != null)

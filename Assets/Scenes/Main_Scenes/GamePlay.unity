@@ -4255,9 +4255,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1894446818}
   speed: 1
-  health: 50
+  health: 10
   isBoss: 0
-  ExpDrop: 20
+  ExpDrop: 100
 --- !u!212 &682397274
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6717,7 +6717,10 @@ MonoBehaviour:
   HealthBar: {fileID: 1458770211}
   ExpBar: {fileID: 1632033323}
   LevelText: {fileID: 128992501}
+  HealthSlider: {fileID: 0}
+  ExpSlider: {fileID: 0}
   arrowObject: {fileID: 4974932266893863279, guid: 4b2c399c2ddd80f4b946333861f1864c, type: 3}
+  shootCooldown: 1
   maxHealth: 100
   level: 0
   currentExp: 0
@@ -7043,6 +7046,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelUp_Canvas: {fileID: 1972456565}
+  player: {fileID: 1894446822}
+  fireBallProjectile: {fileID: 4974932266893863279, guid: 9f9729d9de3d3724391b8e166588fd22, type: 3}
 --- !u!1 &2032650732
 GameObject:
   m_ObjectHideFlags: 0

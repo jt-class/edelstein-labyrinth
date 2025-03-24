@@ -1,4 +1,5 @@
 using System.Collections;
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -19,21 +20,21 @@ public class PlayerController : MonoBehaviour
     private Animator myAnimator;
     private SpriteRenderer mySpriteRender;
     
-    private Slider HealthSlider;
-    private Slider ExpSlider;
+    public Slider HealthSlider;
+    public Slider ExpSlider;
     
 
     // Projectile
-    [SerializeField] private GameObject arrowObject;
+    [SerializeField] public GameObject arrowObject;
     private bool canShoot = true;
-    private float shootCooldown = 1f;
+    public float shootCooldown = 1f;
 
     // Movement
     private Vector2 lastMovementDirection;
 
     // Player Variables
-    [SerializeField] private int maxHealth = 100;
-    [SerializeField] private int level = 0;
+    [SerializeField] public int maxHealth = 100;
+    [SerializeField] public int level = 1;
     private int currentHealth;
     public int currentExp;
     public int requiredExp;
@@ -59,7 +60,9 @@ public class PlayerController : MonoBehaviour
     {
         requiredExp = 100;
         ExpSlider.maxValue = 100;
-        LevelText.SetText("1");
+
+        level = 1;
+        LevelText.SetText(Convert.ToString(level));
     }
     private void Update()
     {
@@ -213,6 +216,7 @@ public class PlayerController : MonoBehaviour
         if (currentExp >= requiredExp)
         {
             level += 1;
+            LevelText.SetText(Convert.ToString(level));
 
             levelUpCanvas.SetActive(true);
 
