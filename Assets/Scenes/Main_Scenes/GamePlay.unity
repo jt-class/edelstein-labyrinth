@@ -5225,7 +5225,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 4.2
+  orthographic size: 4.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8065,7 +8065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f555ae7173228e478e9ae55ddd98071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 3.5
   levelUpCanvas: {fileID: 1972456565}
   HealthBar: {fileID: 1458770211}
   ExpBar: {fileID: 1632033323}
@@ -8600,7 +8600,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 34
-    OrthographicSize: 4.2
+    OrthographicSize: 4.5
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
