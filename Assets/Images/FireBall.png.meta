@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 222c6994e0022954486b93294a1a2086
+guid: cd38ab141d061164db031516cb72561c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6607481912129624618
-    second: Fireball_0
+      213: -8262534425414574923
+    second: FireBall_0
   - first:
-      213: -7250195882505504687
-    second: Fireball_1
+      213: -2299098130814001419
+    second: FireBall_1
   - first:
-      213: 4403933487624526528
-    second: Fireball_2
+      213: 4273675971853563962
+    second: FireBall_2
   - first:
-      213: 8927358698389672400
-    second: Fireball_3
+      213: 2109011874299604264
+    second: FireBall_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -135,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fireball_0
+      name: FireBall_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 526
-        width: 106
-        height: 38
+        x: 92
+        y: 0
+        width: 601
+        height: 594
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d5e1b775328d44a0800000000000000
-      internalID: -6607481912129624618
+      spriteID: 5bc5ab487b4955d80800000000000000
+      internalID: -8262534425414574923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fireball_1
+      name: FireBall_1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 3
-        width: 796
-        height: 787
+        x: 686
+        y: 268
+        width: 8
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 158724f0241226b90800000000000000
-      internalID: -7250195882505504687
+      spriteID: 5fe11116e66f710e0800000000000000
+      internalID: -2299098130814001419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fireball_2
+      name: FireBall_2
       rect:
         serializedVersion: 2
-        x: 736
-        y: 484
-        width: 121
-        height: 204
+        x: 684
+        y: 236
+        width: 13
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0ca9e488c2aed1d30800000000000000
-      internalID: 4403933487624526528
+      spriteID: a38347b47a52f4b30800000000000000
+      internalID: 4273675971853563962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fireball_3
+      name: FireBall_3
       rect:
         serializedVersion: 2
-        x: 833
-        y: 454
-        width: 15
-        height: 24
+        x: 81
+        y: 196
+        width: 12
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d19200ef6954eb70800000000000000
-      internalID: 8927358698389672400
+      spriteID: 82d65ba2027b44d10800000000000000
+      internalID: 2109011874299604264
       vertices: []
       indices: 
       edges: []
@@ -226,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -236,10 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fireball_0: -6607481912129624618
-      Fireball_1: -7250195882505504687
-      Fireball_2: 4403933487624526528
-      Fireball_3: 8927358698389672400
+      FireBall_0: -8262534425414574923
+      FireBall_1: -2299098130814001419
+      FireBall_2: 4273675971853563962
+      FireBall_3: 2109011874299604264
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

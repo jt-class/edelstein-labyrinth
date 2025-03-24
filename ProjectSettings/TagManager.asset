@@ -61,5 +61,8 @@ TagManager:
   - name: UG
     uniqueID: 3451578037
     locked: 0
+  - name: Mob
+    uniqueID: 2547605565
+    locked: 0
   m_RenderingLayers:
   - Default
