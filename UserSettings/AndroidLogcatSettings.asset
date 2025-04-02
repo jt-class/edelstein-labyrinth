@@ -3,7 +3,7 @@
     "m_SelectedProcess": {
         "deviceId": "R9PT707VEAE",
         "name": "com.JTDev.com.unity.Edelstein",
-        "processId": 23379,
+        "processId": 24848,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -72,6 +72,12 @@
             "deviceId": "R9PT707VEAE",
             "name": "com.JTDev.com.unity.Edelstein",
             "processId": 23379,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 24848,
             "exited": false
         }
     ],
