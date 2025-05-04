@@ -14,6 +14,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main_Scenes/GamePlay.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Main_Scenes/Inventory.unity
+    guid: 8a130c0e9212d3c4f9ac24d61d66eefe
+  - enabled: 1
+    path: Assets/Scenes/Main_Scenes/Character.unity
+    guid: 9fd2e3899b74c954383c801760d13c49
+  - enabled: 1
+    path: Assets/Scenes/Main_Scenes/Equipment.unity
+    guid: ff52d1ef19fe74d4190a039f286ff01e
+  - enabled: 1
+    path: Assets/Scenes/Main_Scenes/Rune.unity
+    guid: d5c56441c04d5054f81dcf95a4efa16f
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 55f2677417e84134a85e9a159d818f35, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 2a2022be93245254aa6e5df5a1b24e22, type: 2}
