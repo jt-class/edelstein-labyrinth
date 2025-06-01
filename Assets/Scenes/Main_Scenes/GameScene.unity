@@ -12556,7 +12556,7 @@ GameObject:
   - component: {fileID: 1306425224}
   - component: {fileID: 1306425223}
   m_Layer: 5
-  m_Name: shadow
+  m_Name: SettingsPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17011,8 +17011,8 @@ RectTransform:
   - {fileID: 475195790}
   - {fileID: 999075082}
   - {fileID: 2027267144}
-  - {fileID: 1306425222}
   - {fileID: 185577095}
+  - {fileID: 1306425222}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
