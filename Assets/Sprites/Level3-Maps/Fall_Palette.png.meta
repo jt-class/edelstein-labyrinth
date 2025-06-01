@@ -108,8 +108,8 @@ TextureImporter:
         serializedVersion: 2
         x: 55
         y: 2700
-        width: 314
-        height: 262
+        width: 500
+        height: 380
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5428,10 +5428,10 @@ TextureImporter:
       name: Fall_Palette_12
       rect:
         serializedVersion: 2
-        x: 2607
-        y: 2124
-        width: 323
-        height: 310
+        x: 2773
+        y: 2194
+        width: 114
+        height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5493,9 +5493,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2962
-        y: 2048
+        y: 1980
         width: 500
-        height: 430
+        height: 500
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5834,10 +5834,10 @@ TextureImporter:
       name: Fall_Palette_14
       rect:
         serializedVersion: 2
-        x: 3541
-        y: 2029
+        x: 3540
+        y: 1978
         width: 500
-        height: 449
+        height: 500
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
