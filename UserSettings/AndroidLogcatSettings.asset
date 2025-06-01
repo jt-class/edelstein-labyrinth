@@ -1,0 +1,177 @@
+{
+    "m_SelectedDeviceId": "R9PT707VEAE",
+    "m_SelectedProcess": {
+        "deviceId": "R9PT707VEAE",
+        "name": "com.JTDev.com.unity.Edelstein",
+        "processId": 24848,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownProcessesForSerialization": [
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 10116,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 11761,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 13126,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 14322,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 10346,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 12023,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 13089,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 13811,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 15831,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 24457,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 23379,
+            "exited": false
+        },
+        {
+            "deviceId": "R9PT707VEAE",
+            "name": "com.JTDev.com.unity.Edelstein",
+            "processId": 24848,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_ExtraWindowState": {
+        "Type": 0,
+        "Height": 0.0
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "AutoCapture": true
+    },
+    "m_FilterOptions": {
+        "m_Filter": "",
+        "m_UseRegularExpressions": false,
+        "m_MatchCase": false
+    },
+    "m_SymbolPaths": [],
+    "m_CaptureVideoSettings": {
+        "TimeLimitEnabled": false,
+        "TimeLimit": 180,
+        "VideoSizeEnabled": false,
+        "VideoSizeX": 1280,
+        "VideoSizeY": 720,
+        "BitRateEnabled": false,
+        "BitRateK": 20000,
+        "DisplayIdEnabled": false,
+        "DisplayId": ""
+    },
+    "m_ScreenCaptureSettings": {
+        "Mode": 0,
+        "m_LastSaveLocation": [
+            "C:\\Users\\reign\\UnityHub\\edelstein-labyrinth",
+            "C:\\Users\\reign\\UnityHub\\edelstein-labyrinth"
+        ]
+    },
+    "m_QueryLayoutSettings": {
+        "LastLayoutSaveLocation": "",
+        "LastScreenshotSaveLocation": ""
+    },
+    "m_InputSettings": {
+        "ShiftModifier": false,
+        "SendText": "",
+        "PosixKillSignal": 0,
+        "TargetProcess": {
+            "deviceId": "",
+            "name": "",
+            "processId": 0,
+            "exited": false
+        }
+    },
+    "m_AutoScroll": 2
+}
