@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Mob
+  - Player_Projectile
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 863161401
+    locked: 0
+  - name: Puno
+    uniqueID: 2620790693
+    locked: 0
+  - name: BG
+    uniqueID: 4269417975
+    locked: 0
+  - name: FG
+    uniqueID: 3859609709
+    locked: 0
+  - name: FLOORG
+    uniqueID: 4167592819
+    locked: 0
+  - name: UG
+    uniqueID: 3451578037
+    locked: 0
+  - name: Mob
+    uniqueID: 2547605565
+    locked: 0
+  m_RenderingLayers:
+  - Default

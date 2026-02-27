@@ -1,0 +1,23 @@
+# ninja log v5
+12	2278	7644868948951985	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	e62309355e0bf711
+103	544	7644868931572404	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	ed1077814b47d2c5
+545	785	7644868934077462	C:/Users/reign/UnityHub/edelstein-labyrinth/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1c2z6i21/obj/arm64-v8a/libswappywrapper.so	31f6def87a2efd0f
+69	1681	7644868942882454	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	741d13b351158466
+31	1923	7644868945344732	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	161ffb0a4f12eb08
+57	1613	7644868942160953	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	9fbe7007627ab189
+20	1717	7644868943247903	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	d585dc64d4177a38
+81	1925	7644868945323113	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	549209beb4194343
+38	1588	7644868941890798	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	a2deea63b86a4933
+47	2220	7644868948415798	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	e30a2ba84fc8ae6f
+2278	2422	7644868950472949	C:/Users/reign/UnityHub/edelstein-labyrinth/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1c2z6i21/obj/arm64-v8a/libgame.so	9805fab84b0c2fd9
+126	760	7704626393758919	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	ed1077814b47d2c5
+762	1609	7704626401988519	C:/Users/reign/UnityHub/edelstein-labyrinth/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1c2z6i21/obj/arm64-v8a/libswappywrapper.so	31f6def87a2efd0f
+58	3728	7704626423710820	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	9fbe7007627ab189
+31	3911	7704626425502140	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	d585dc64d4177a38
+81	3960	7704626425831624	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	741d13b351158466
+115	4199	7704626428202197	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	549209beb4194343
+20	4303	7704626428457924	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	a2deea63b86a4933
+39	4394	7704626430359776	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	161ffb0a4f12eb08
+95	4739	7704626433867244	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	e30a2ba84fc8ae6f
+47	4986	7704626436215582	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	e62309355e0bf711
+4987	5219	7704626438695793	C:/Users/reign/UnityHub/edelstein-labyrinth/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1c2z6i21/obj/arm64-v8a/libgame.so	9805fab84b0c2fd9

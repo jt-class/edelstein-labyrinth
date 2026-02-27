@@ -1,0 +1,17 @@
+# Unity generated files
+Library/
+Logs/
+Temp/
+Obj/
+Build/
+Builds/
+.vs/
+.idea/
+.userprefs
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.log
+Logs/AssetImportWorker0.log
+Logs/shadercompiler-AssetImportWorker0-0.log

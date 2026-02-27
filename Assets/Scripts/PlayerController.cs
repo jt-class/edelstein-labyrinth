@@ -1,0 +1,242 @@
+using System.Collections;
+using System;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class PlayerController : MonoBehaviour
+{   
+    //Variables
+    [SerializeField] private float moveSpeed = 1f;
+    [SerializeField] private GameObject levelUpCanvas;
+    [SerializeField] public GameObject HealthBar;
+    [SerializeField] public GameObject ExpBar;
+    [SerializeField] public TextMeshProUGUI LevelText;
+
+    private PlayerControls playerControls;
+    private Vector2 movement;
+    private Rigidbody2D rb;
+    private Animator myAnimator;
+    private SpriteRenderer mySpriteRender;
+    
+    public Slider HealthSlider;
+    public Slider ExpSlider;
+    
+
+    // Projectile
+    [SerializeField] public GameObject arrowObject;
+    private bool canShoot = true;
+    public float shootCooldown = 1f;
+
+    // Movement
+    private Vector2 lastMovementDirection;
+
+    // Player Variables
+    [SerializeField] public int maxHealth = 100;
+    [SerializeField] public int level = 1;
+    private int currentHealth;
+    public int currentExp;
+    public int requiredExp;
+
+    private void Awake()
+    {
+        playerControls = new PlayerControls();
+        rb = GetComponent<Rigidbody2D>();
+        myAnimator = GetComponent<Animator>();
+        mySpriteRender = GetComponent<SpriteRenderer>();
+        currentHealth = maxHealth;
+        HealthSlider = HealthBar.GetComponent<Slider>();
+        ExpSlider = ExpBar.GetComponent<Slider>();
+        
+    }
+
+    private void OnEnable()
+    {
+        playerControls.Enable();
+    }
+
+    private void Start()
+    {
+        requiredExp = 100;
+        ExpSlider.maxValue = 100;
+
+        level = 1;
+        LevelText.SetText(Convert.ToString(level));
+    }
+    private void Update()
+    {
+        PlayerInput();
+        fireProjectile();
+
+        if (Input.GetKey(KeyCode.P))
+        {
+            LevelUp();
+        }
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            FireContinuousProjectiles(); //pa ni pinindot yung space sheesh god mode attack for testing lang
+        }
+
+        if (Input.GetKey(KeyCode.X))
+        {
+            NormalContinuousProjectiles(); //pa ni pinindot yung x normal attack lang pero 5 bullets
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        AdjustPlayerFacingDirection();
+        Move();
+    }
+
+    private void PlayerInput()
+    {
+        movement = playerControls.Movement.Move.ReadValue<Vector2>();
+
+        if (movement != Vector2.zero)
+        {
+            lastMovementDirection = movement;
+        }
+
+        myAnimator.SetFloat("moveX", movement.x);
+        myAnimator.SetFloat("moveY", movement.y);
+    }
+
+    private void Move()
+    {
+        rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
+    }
+
+    private void AdjustPlayerFacingDirection()
+    {
+        if (movement.x < 0) { mySpriteRender.flipX = true; }
+        else if (movement.x > 0) { mySpriteRender.flipX = false; }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        Debug.Log("Damage received: " + damage + " Current Health: " + currentHealth);
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+        else
+        {
+            HealthSlider.maxValue = maxHealth;
+            HealthSlider.value = currentHealth;
+        }
+    }
+
+    private void Die()
+    {
+        Debug.Log("Player Died!");
+        gameObject.SetActive(false);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Mob"))
+        {
+            TakeDamage(1);
+        }
+    }
+
+    private void fireProjectile()
+    {
+        if (canShoot && lastMovementDirection != Vector2.zero)
+        {
+            canShoot = false;
+
+            GameObject projectile_arrow = Instantiate(arrowObject, transform.position, Quaternion.identity);
+
+            GameObject nearestMob = FindNearestMob();
+
+            projectile_arrow.GetComponent<ArrowChase>().SetTarget(nearestMob, lastMovementDirection);
+
+            Destroy(projectile_arrow, 5f); // 2nd var = lifespan
+            StartCoroutine(ShootCooldown());
+        }
+    }
+
+
+    private GameObject FindNearestMob()
+    {
+        GameObject[] mobs = GameObject.FindGameObjectsWithTag("Mob");
+        GameObject nearestMob = null;
+        float closestDistance = Mathf.Infinity;
+
+        foreach (GameObject mob in mobs)
+        {
+            float distance = Vector2.Distance(transform.position, mob.transform.position);
+            if (distance < closestDistance)
+            {
+                nearestMob = mob;
+                closestDistance = distance;
+            }
+        }
+
+        return nearestMob;
+    }
+
+    private void FireContinuousProjectiles()
+    {
+        if (lastMovementDirection != Vector2.zero)
+        {
+            Vector2 fireDirection = lastMovementDirection.normalized;
+
+            GameObject projectile_arrow = Instantiate(arrowObject, transform.position, Quaternion.identity);
+            projectile_arrow.GetComponent<Rigidbody2D>().linearVelocity = fireDirection * 5.0f; //dito iaadjust yung bilis ng bullets
+            Destroy(projectile_arrow, 2f);
+        }
+    }
+
+    private void NormalContinuousProjectiles()
+    {
+        if (lastMovementDirection != Vector2.zero)
+        {
+            Vector2 fireDirection = lastMovementDirection.normalized;
+
+            GameObject projectile_arrow = Instantiate(arrowObject, transform.position, Quaternion.identity);
+            projectile_arrow.GetComponent<Rigidbody2D>().linearVelocity = fireDirection * 1.0f; //dito iaadjust yung bilis ng bullets
+            Destroy(projectile_arrow, 2f);
+        }
+    }
+
+    private IEnumerator ShootCooldown()
+    {
+        yield return new WaitForSeconds(shootCooldown);
+        canShoot = true;
+    }
+
+    public void LevelUp()
+    {
+        if (currentExp >= requiredExp)
+        {
+            level += 1;
+            LevelText.SetText(Convert.ToString(level));
+
+            levelUpCanvas.SetActive(true);
+
+            currentExp = 0;
+            ExpSlider.value = currentExp;
+
+            requiredExp = level * 100;
+
+            ExpSlider.maxValue = requiredExp;
+        }
+    }
+    public void ReceiveExp(int amount)
+    {
+        currentExp += amount;
+        ExpSlider.value = currentExp;
+
+        if (currentExp >= requiredExp)
+        {
+            LevelUp();
+        }
+    }
+
+}
